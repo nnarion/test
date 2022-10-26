@@ -1,31 +1,114 @@
 <!DOCTYPE html>
 
 <html>
+<body>
+    
+    <div class="container">
 
-LEGO WebStore
+        <head>
+            <link rel="stylesheet" href="../css/styles.css">
+            <p id="haut">
+            <title>LEGO WebStore</title>
+        </head>
+            
+            <h1>
+            LEGO WebStore
+            </h1>
+            </p>
+<hr>
 
-Produit
-Acheter
+<p>
+    <ul>
+    <li>
 
+        <a href="produit.html">Produit</a>
+    </li>
+    <li>
+        <a href="acheter.html">Acheter</a>
+    </li>
+    </ul>
+</p>
+<hr>
+
+<h2>
 Acheter des LEGO
+</h2>
 
-Remplissez le formulaire ci-dessous pour commander des LEGO !
+<p>
+Remplissez le formulaire ci-dessous pour commander des <i>LEGO</i> !
+</p>
 
+<h3>
 Informations personnelles
-Civilité: M. Mme.
-Nom:
-Prénom:
-Mail:
+</h3>
 
+<p>
+
+Civilité:<br/></br>
+
+    
+    <input type="radio" name="genre"/> M.<br/>
+    <input type="radio" name="genre"/> Mme.<br/>
+      
+
+    <form>
+        <p>Nom:</br></br><input name="nom" type="text"/></p>
+        <p>Prénom:</br></br><input name="prénom" type="text"/></p> 
+        <p>Mail:</br></br><input name="mail" type="mail"/></p>
+      </form>
+
+</p>
+
+<h3>
 Informations de livraison
-Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
+</h3>
+
+<p>
+Quantité commandée:
+</br>
+</br>
+
+
+<select name="boîtes">
+    <option value="1">1 boîte</option>
+    <option value="2">2 boîtes</option>
+    <option value="3">3 boîtes</option>
+    <option value="4">4 boîtes</option>
+    <option value="5">5 boîtes</option>
+  </select>
+</br>
+</br>
+
 Adresse de livraison:
+</br>
+</br>
 
-Confirmation
-J'ai relu ma commande et certifie que ces informations sont correctes.
+<textarea name="resume" rows="4" cols="20"></textarea>
 
-Retour en haut de page
-TP1 : Découverte de HTML et CSS
-L2 Développement Web - 2018
+<h3>Confirmation</h3>
 
+<input type="checkbox" name="rouge"/>J'ai relu ma commande et certifie que ces informations sont correctes.<br/></br>
+
+<input type="submit" value="Confirmer la commande" />
+</br>
+
+</p>
+
+
+<hr>
+
+<footer>    
+
+    <a href="#haut">Retour en haut de page</a>
+
+    <p>
+    TP1 : Découverte de HTML et CSS
+    </p>
+    <p>
+    L2 Développement Web - 2018
+    </p>
+
+</footer>
+</div>
+</body>
 </html>
